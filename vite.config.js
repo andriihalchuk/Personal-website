@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: '/YOUR_REPO_NAME/', // <-- Keep your GitHub repo name here!
+  base: '/personal-website/', // <-- Keep your GitHub repo name here!
 })
