@@ -1,9 +1,14 @@
 export default function App() {
   return (
-    <div className="flex h-screen items-center justify-center bg-gray-900">
-      <h1 className="text-5xl font-bold text-blue-400">
-        Hello, Portfolio!
-      </h1>
+    <div className ="flex items-center justify-between 
+    bg-gray-800 text-white p-4 text-2xl">
+      <div className="font-bold">Logo</div>
+      <div className="flex gap-4">
+        <span>About Me</span>
+        <span>Projects</span>
+        <span>Skills</span>
+        <span>Contact</span>
+      </div>
     </div>
-  )
+  );
 }
